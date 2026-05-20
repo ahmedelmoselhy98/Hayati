@@ -43,7 +43,7 @@ class RetrofitNetworkClient(
                 )
             )
             val finalUrl = UrlBuilder.build(
-                url = baseUrl, endpoint = request.endpoint, pathParameters = request.pathParameters
+                baseUrl = baseUrl, endpoint = request.endpoint, pathParameters = request.pathParameters
             )
 
             val headers = request.headers

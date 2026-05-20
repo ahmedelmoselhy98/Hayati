@@ -66,5 +66,17 @@ dependencies {
     debugImplementation(libs.library)
     releaseImplementation(libs.library.no.op)
 
+    // Coroutines Test
+    testImplementation(libs.kotlinx.coroutines.test)
+
+    // MockK
+    testImplementation(libs.mockk)
+
+    // Turbine
+    testImplementation(libs.turbine)
+
+    // MockWebServer
+    testImplementation(libs.mockwebserver)
+
 
 }
